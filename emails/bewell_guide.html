@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>10 Ways to Care for Your Parents Even When You're Far Away</title>
+<style>
+  @page { size: Letter; margin: 0; }
+  @font-face {
+    font-family: 'Inter';
+    src: url('file:///usr/share/fonts/opentype/inter/Inter-Regular.otf') format('opentype');
+    font-weight: 400;
+  }
+  @font-face {
+    font-family: 'Inter';
+    src: url('file:///usr/share/fonts/opentype/inter/Inter-Medium.otf') format('opentype');
+    font-weight: 500;
+  }
+  @font-face {
+    font-family: 'Inter';
+    src: url('file:///usr/share/fonts/opentype/inter/Inter-SemiBold.otf') format('opentype');
+    font-weight: 600;
+  }
+  @font-face {
+    font-family: 'Inter';
+    src: url('file:///usr/share/fonts/opentype/inter/Inter-Bold.otf') format('opentype');
+    font-weight: 700;
+  }
+  @font-face {
+    font-family: 'Inter Display';
+    src: url('file:///usr/share/fonts/opentype/inter/InterDisplay-Bold.otf') format('opentype');
+    font-weight: 700;
+  }
+
+  :root {
+    --blue: #3B80BE;
+    --deep-blue: #1F2D49;
+    --email-blue: #4B72B4;
+    --red: #FF3B47;
+    --soft-red: #FFE8EA;
+    --cream: #FAF5F1;
+    --bg: #F6F7FA;
+    --line: #E5EBF4;
+    --text: #25324A;
+    --subtle: #66768F;
+    --white: #FFFFFF;
+  }
+
+  * { box-sizing: border-box; }
+  body { margin: 0; background: #ddd; font-family: 'Inter', Arial, sans-serif; color: var(--text); }
+  a { color: inherit; }
+  .page {
+    width: 8.5in;
+    height: 11in;
+    background: var(--bg);
+    position: relative;
+    overflow: hidden;
+    page-break-after: always;
+  }
+  .page:last-child { page-break-after: auto; }
+  .content { padding: 0.75in; position: relative; z-index: 2; }
+  .topband {
+    position:absolute; left:0; top:0; right:0; height: 62px; background:#fff; z-index:1;
+    border-bottom: 1px solid var(--line);
+  }
+  .logo { width: 150px; height: auto; }
+  .small { font-size: 12px; line-height: 1.6; color: var(--subtle); }
+  .kicker { font-size: 10px; letter-spacing: .06em; text-transform: uppercase; color: var(--blue); font-weight: 700; }
+  h1, h2, h3, p { margin: 0; }
+  h1 { font-family: 'Inter Display', 'Inter', Arial, sans-serif; color: var(--deep-blue); font-size: 32px; line-height: 1.15; }
+  h2 { font-family: 'Inter Display', 'Inter', Arial, sans-serif; color: var(--deep-blue); font-size: 22px; line-height: 1.2; }
+  h3 { font-size: 18px; line-height: 1.25; color: var(--deep-blue); font-weight: 600; }
+  p { font-size: 14px; line-height: 1.65; }
+  .lede { font-size: 17px; line-height: 1.65; }
+  .footer {
+    position:absolute; left:.75in; right:.75in; bottom:.34in; display:flex; justify-content:space-between;
+    border-top:1px solid var(--line); padding-top: 10px; font-size: 11px; color: #71829A;
+  }
+  .muted { color: var(--subtle); }
+  .hero {
+    background: var(--deep-blue);
+    color: #fff;
+  }
+  .hero .content { padding-top: 0.72in; }
+  .hero h1 { color:#fff; font-size: 39px; line-height: 1.08; width: 56%; margin-top: 28px; }
+  .hero p.lede { color: #DDE8F6; width: 52%; margin-top: 18px; }
+  .hero-card {
+    position:absolute; left:.75in; right:.75in; bottom:1.55in; background: rgba(255,255,255,.08);
+    border:1px solid rgba(255,255,255,.08); border-radius: 26px; padding: .36in .40in;
+    color:#fff; backdrop-filter: blur(3px);
+  }
+  .hero-card p { color:#EEF5FF; font-size: 15px; line-height: 1.6; }
+  .badge {
+    position:absolute; right:.92in; top:1.15in; width: 62px; height: 62px; border-radius: 50%;
+    background:#fff; color:var(--red); display:flex; align-items:center; justify-content:center; font-weight:700; font-size:23px;
+  }
+  .arc, .arc2, .arc3 {
+    position:absolute; border: 34px solid rgba(255,255,255,.08); border-radius:50%;
+  }
+  .hero .arc { width: 380px; height: 380px; left: -170px; top: -70px; }
+  .hero .arc2 { width: 540px; height: 540px; left: -250px; top: -150px; }
+  .hero .arc3 { width: 700px; height: 700px; left: -330px; top: -230px; }
+  .btn-row { position:absolute; left:.75in; bottom:.78in; display:flex; gap: 12px; }
+  .btn {
+    display:inline-flex; align-items:center; justify-content:center; min-width: 182px; height: 36px; border-radius: 18px;
+    font-size: 11.5px; font-weight: 600; text-decoration:none; padding: 0 18px;
+  }
+  .btn-primary { background: var(--red); color:#fff; }
+  .btn-secondary { background:#fff; color: var(--deep-blue); }
+
+  .page-title { margin-top: 22px; }
+  .intro-grid { display:grid; grid-template-columns: 1fr; gap: 18px; margin-top: 18px; }
+  .callout {
+    background: var(--cream); border-radius: 20px; padding: 24px 24px 20px; margin-top: 22px;
+  }
+  .callout ul { margin: 12px 0 0 0; padding: 0 0 0 18px; }
+  .callout li { font-size: 14px; line-height: 1.55; margin-bottom: 8px; }
+  .tiles { display:flex; gap: 12px; margin-top: 22px; }
+  .tile {
+    background:#fff; border:1px solid var(--line); border-radius: 18px; padding: 16px 16px 18px; flex:1;
+    min-height: 104px;
+  }
+  .tile h3 { font-size: 16px; margin-bottom: 8px; }
+  .tile p { font-size: 12px; line-height: 1.55; color: var(--subtle); }
+
+  .tip-page .content { padding-top: .65in; }
+  .tip-stack { margin-top: 26px; display:flex; flex-direction:column; gap: 20px; }
+  .tip-card {
+    background:#fff; border:1px solid var(--line); border-radius: 24px; padding: 22px 22px 20px 22px;
+  }
+  .tip-head { display:flex; gap: 14px; align-items:flex-start; }
+  .tip-num {
+    width: 32px; height: 32px; border-radius: 50%; background: var(--soft-red); color: var(--red);
+    display:flex; align-items:center; justify-content:center; font-weight:700; font-size: 13px; flex: 0 0 32px;
+  }
+  .tip-body { margin-top: 14px; padding-left: 46px; }
+  .tip-body p { font-size: 14px; line-height: 1.64; }
+  .try {
+    margin-top: 16px; background: var(--cream); border-radius: 15px; padding: 13px 15px;
+    font-size: 12.5px; line-height: 1.55; color: var(--deep-blue);
+  }
+  .try strong { font-weight: 600; }
+  .page-note { position:absolute; top:.87in; right:.75in; font-size: 11px; color:#90A6C2; font-weight: 600; }
+
+  .final-top {
+    position:absolute; left:0; right:0; top:0; height: 2.4in; background: var(--email-blue); overflow:hidden;
+  }
+  .final-top .arc { border-color: rgba(255,255,255,.10); width: 360px; height: 360px; right: -110px; left:auto; top: -120px; }
+  .final-top .arc2 { border-color: rgba(255,255,255,.08); width: 520px; height: 520px; right: -190px; left:auto; top: -200px; }
+  .final-copy { position:relative; z-index:2; padding-top: .72in; color:#fff; }
+  .final-copy h1 { color:#fff; width: 58%; font-size: 26px; line-height: 1.08; }
+  .final-copy p { color:#E5EFFA; width: 58%; margin-top: 14px; font-size: 14px; }
+  .final-card {
+    position:absolute; left:.75in; right:.75in; top:2.78in; background:#fff; border-radius: 26px; border:1px solid var(--line);
+    padding: .42in .42in .38in;
+  }
+  .checklist { margin-top: 12px; display:flex; flex-direction:column; gap: 14px; }
+  .check { display:flex; gap: 14px; align-items:flex-start; }
+  .box { width: 16px; height: 16px; border: 1.5px solid var(--blue); border-radius: 4px; margin-top: 3px; flex:0 0 16px; }
+  .cta-strip { display:flex; gap: 12px; margin-top: 20px; }
+  .bottom-band {
+    position:absolute; left:0; right:0; bottom:0; height: 1.9in; background: var(--deep-blue); color:#fff;
+    padding: .40in .75in;
+  }
+  .contact-grid { display:flex; gap: 24px; margin-top: 16px; }
+  .contact-item { flex:1; }
+  .contact-item .label { font-size: 11px; color: #BFD1E8; margin-bottom: 4px; font-weight:600; }
+  .contact-item a, .contact-item div.value { font-size: 13px; color: #fff; text-decoration:none; }
+  .copyright { position:absolute; left:.75in; right:.75in; bottom:.28in; text-align:center; color:#B7C7DD; font-size: 10px; }
+</style>
+</head>
+<body>
+
+<section class="page hero">
+  <div class="arc"></div><div class="arc2"></div><div class="arc3"></div>
+  <div class="content">
+    <img class="logo" src="file:///mnt/data/2.png" alt="BeWell Alert logo" />
+    <div class="badge">10</div>
+    <h1>10 Ways to Care for Your Parents Even When You're Far Away</h1>
+    <p class="lede">A calm, practical guide for families who want to stay close, supportive, and prepared — even across distance.</p>
+  </div>
+  <div class="hero-card">
+    <p><strong>This guide is for the quiet parts of caregiving.</strong><br><br>It is not about doing everything. It is about doing a few thoughtful things well — with warmth, consistency, and less worry.</p>
+  </div>
+  <div class="btn-row">
+    <a class="btn btn-primary" href="https://bewellalert.com/">Explore BeWell Alert</a>
+    <a class="btn btn-secondary" href="https://bewellalert.com/how-it-works/">See how it works</a>
+  </div>
+</section>
+
+<section class="page">
+  <div class="topband"></div>
+  <div class="content">
+    <img class="logo" src="file:///mnt/data/2.png" alt="BeWell Alert logo" style="width:112px" />
+    <div class="page-title">
+      <div class="kicker">A warm starting point</div>
+      <h1 style="margin-top:10px; max-width: 540px;">Support from far away does not have to feel overwhelming.</h1>
+    </div>
+    <div class="intro-grid">
+      <p class="lede">Caring from a distance can feel tender, emotional, and sometimes exhausting. The good news is that support does not have to be complicated to be meaningful.</p>
+      <p class="lede">The strongest routines are often the simplest ones: a steady check-in, a safer room, a shared note, a calmer plan for what to do if something feels off.</p>
+    </div>
+    <div class="callout">
+      <div class="kicker">How to use this guide</div>
+      <ul>
+        <li>Start with one or two ideas that feel easy to keep.</li>
+        <li>Focus on routines that protect independence, not control it.</li>
+        <li>Come back to this guide whenever life changes.</li>
+      </ul>
+    </div>
+    <p style="margin-top:18px; font-size:14px; line-height:1.65; color:var(--deep-blue); font-weight:500; max-width: 550px;">At BeWell Alert, the goal is simple: help should feel easy to reach, supportive, and reassuring — at home or on the go.</p>
+    <div class="tiles">
+      <div class="tile"><h3>Check in</h3><p>Choose a rhythm you can keep.</p></div>
+      <div class="tile"><h3>Prepare</h3><p>Keep important details in one place.</p></div>
+      <div class="tile"><h3>Protect</h3><p>Make everyday safety easier.</p></div>
+    </div>
+  </div>
+  <div class="footer"><div>BeWell Alert • bewellalert.com</div><div>Educational guide • Not a substitute for medical advice</div></div>
+</section>
+
+<section class="page tip-page">
+  <div class="topband"></div>
+  <div class="content">
+    <img class="logo" src="file:///mnt/data/2.png" alt="BeWell Alert logo" style="width:112px" />
+    <div class="page-note">Guide • Page 3</div>
+    <div class="page-title"><h1>10 practical ways to care from afar</h1></div>
+    <div class="tip-stack">
+      <div class="tip-card">
+        <div class="tip-head"><div class="tip-num">1</div><h3>Create a steady check-in rhythm</h3></div>
+        <div class="tip-body"><p>You do not need to call all day to be supportive. What helps most is consistency: a simple pattern your loved one can count on and you can actually maintain.</p><div class="try"><strong>Try this week:</strong> choose two anchor times, like a morning text and an evening call, and keep them simple.</div></div>
+      </div>
+      <div class="tip-card">
+        <div class="tip-head"><div class="tip-num">2</div><h3>Keep one shared essentials note</h3></div>
+        <div class="tip-body"><p>When you live far away, details matter. Keep one up-to-date page with emergency contacts, doctors, medications, pharmacy details, allergies, and building access notes.</p><div class="try"><strong>Try this week:</strong> create a one-page document and share it with the people who may need it.</div></div>
+      </div>
+    </div>
+  </div>
+  <div class="footer"><div>BeWell Alert • bewellalert.com</div><div>Educational guide • Not a substitute for medical advice</div></div>
+</section>
+
+<section class="page tip-page">
+  <div class="topband"></div>
+  <div class="content">
+    <img class="logo" src="file:///mnt/data/2.png" alt="BeWell Alert logo" style="width:112px" />
+    <div class="page-note">Guide • Page 4</div>
+    <div class="page-title"><h1>10 practical ways to care from afar</h1></div>
+    <div class="tip-stack">
+      <div class="tip-card">
+        <div class="tip-head"><div class="tip-num">3</div><h3>Make the home easier to move through</h3></div>
+        <div class="tip-body"><p>Small home changes reduce daily stress. Clear walkways, secure rugs, improve lighting, and make sure the bathroom and stairs feel easy to navigate.</p><div class="try"><strong>Try this week:</strong> pick one room and remove just three things that create clutter or risk.</div></div>
+      </div>
+      <div class="tip-card">
+        <div class="tip-head"><div class="tip-num">4</div><h3>Notice small changes early</h3></div>
+        <div class="tip-body"><p>Support is not only for emergencies. Pay attention to appetite, energy, sleep, balance, and mood. Quiet changes are often the first sign that something needs attention.</p><div class="try"><strong>Try this week:</strong> ask one gentle question each time you check in, such as “How has your energy felt today?”</div></div>
+      </div>
+    </div>
+  </div>
+  <div class="footer"><div>BeWell Alert • bewellalert.com</div><div>Educational guide • Not a substitute for medical advice</div></div>
+</section>
+
+<section class="page tip-page">
+  <div class="topband"></div>
+  <div class="content">
+    <img class="logo" src="file:///mnt/data/2.png" alt="BeWell Alert logo" style="width:112px" />
+    <div class="page-note">Guide • Page 5</div>
+    <div class="page-title"><h1>10 practical ways to care from afar</h1></div>
+    <div class="tip-stack">
+      <div class="tip-card">
+        <div class="tip-head"><div class="tip-num">5</div><h3>Build a local circle of support</h3></div>
+        <div class="tip-body"><p>Distance becomes lighter when care is shared. A neighbor, friend, relative, building manager, or community contact can help you respond faster when something unexpected happens.</p><div class="try"><strong>Try this week:</strong> choose one local person and ask if they would be comfortable being an occasional point of contact.</div></div>
+      </div>
+      <div class="tip-card">
+        <div class="tip-head"><div class="tip-num">6</div><h3>Talk about urgent moments before they happen</h3></div>
+        <div class="tip-body"><p>Emergency planning feels calmer before it is needed. Decide who to call first, where spare keys are kept, what the preferred hospital is, and what “please check on me” should mean.</p><div class="try"><strong>Try this week:</strong> spend ten minutes talking through one “what if” scenario without making it dramatic.</div></div>
+      </div>
+    </div>
+  </div>
+  <div class="footer"><div>BeWell Alert • bewellalert.com</div><div>Educational guide • Not a substitute for medical advice</div></div>
+</section>
+
+<section class="page tip-page">
+  <div class="topband"></div>
+  <div class="content">
+    <img class="logo" src="file:///mnt/data/2.png" alt="BeWell Alert logo" style="width:112px" />
+    <div class="page-note">Guide • Page 6</div>
+    <div class="page-title"><h1>10 practical ways to care from afar</h1></div>
+    <div class="tip-stack">
+      <div class="tip-card">
+        <div class="tip-head"><div class="tip-num">7</div><h3>Support movement, hydration, and rest</h3></div>
+        <div class="tip-body"><p>A little movement, enough water, and better sleep can make everyday life feel steadier. Gentle habits support energy, confidence, and balance.</p><div class="try"><strong>Try this week:</strong> encourage one small habit, like a short daily walk, a water bottle nearby, or a consistent bedtime.</div></div>
+      </div>
+      <div class="tip-card">
+        <div class="tip-head"><div class="tip-num">8</div><h3>Make medicines and appointments easier to follow</h3></div>
+        <div class="tip-body"><p>Care feels lighter when routines are visible. Refill reminders, a pill organizer, and a simple calendar can reduce mistakes and help you notice gaps early.</p><div class="try"><strong>Try this week:</strong> review upcoming appointments and ask whether refill dates or medications feel easy to manage.</div></div>
+      </div>
+    </div>
+  </div>
+  <div class="footer"><div>BeWell Alert • bewellalert.com</div><div>Educational guide • Not a substitute for medical advice</div></div>
+</section>
+
+<section class="page tip-page">
+  <div class="topband"></div>
+  <div class="content">
+    <img class="logo" src="file:///mnt/data/2.png" alt="BeWell Alert logo" style="width:112px" />
+    <div class="page-note">Guide • Page 7</div>
+    <div class="page-title"><h1>10 practical ways to care from afar</h1></div>
+    <div class="tip-stack">
+      <div class="tip-card">
+        <div class="tip-head"><div class="tip-num">9</div><h3>Lead with respect, not pressure</h3></div>
+        <div class="tip-body"><p>Older adults want support, but they also want dignity. Offer choices, not commands. The goal is to protect independence, not replace it.</p><div class="try"><strong>Try this week:</strong> replace “you need to” with “would it help if we…” and notice how the conversation changes.</div></div>
+      </div>
+      <div class="tip-card">
+        <div class="tip-head"><div class="tip-num">10</div><h3>Keep help within reach every day</h3></div>
+        <div class="tip-body"><p>Peace of mind grows when support is simple and immediate. Whether it is a phone nearby or a wearable alert device, help should be easy to reach without stress or searching.</p><div class="try"><strong>Try this week:</strong> choose one method of emergency contact and make sure it is charged, visible, and ready to use.</div></div>
+      </div>
+    </div>
+  </div>
+  <div class="footer"><div>BeWell Alert • bewellalert.com</div><div>Educational guide • Not a substitute for medical advice</div></div>
+</section>
+
+<section class="page">
+  <div class="final-top">
+    <div class="arc"></div><div class="arc2"></div>
+  </div>
+  <div class="content final-copy">
+    <img class="logo" src="file:///mnt/data/2.png" alt="BeWell Alert logo" style="width:112px" />
+    <h1>Start with three small steps this week</h1>
+    
+  </div>
+  <div class="final-card">
+    <div class="kicker">A calm care plan</div><p style="margin-top:10px; max-width:520px;">Small habits build confidence — and confidence brings peace of mind.</p>
+    <div class="checklist">
+      <div class="check"><div class="box"></div><p>Choose one check-in rhythm you can keep.</p></div>
+      <div class="check"><div class="box"></div><p>Update one shared note with essentials.</p></div>
+      <div class="check"><div class="box"></div><p>Make one room safer and easier to move through.</p></div>
+    </div>
+    <p style="margin-top:18px; max-width: 520px;">If you would like extra peace of mind, BeWell Alert offers wearable and in-home safety devices designed to help older adults stay independent while keeping support close at hand.</p>
+    <div class="cta-strip">
+      <a class="btn btn-primary" href="https://bewellalert.com/">Explore devices</a>
+      <a class="btn btn-secondary" href="https://bewellalert.com/how-it-works/">Learn how it works</a>
+    </div>
+  </div>
+  <div class="bottom-band">
+    <div class="kicker" style="color:#BFD1E8">BeWell Alert</div>
+    <div class="contact-grid">
+      <div class="contact-item"><div class="label">Website</div><a href="https://bewellalert.com/">bewellalert.com</a></div>
+      <div class="contact-item"><div class="label">Phone</div><a href="tel:+18662047776">(866) 204-7776</a></div>
+      <div class="contact-item"><div class="label">Email</div><a href="mailto:hello@bewellalert.com">hello@bewellalert.com</a></div>
+    </div>
+    <div class="copyright">© 2026 Be Well Medical Alert Inc. • 1616 Kings Hwy, Suite 301, Brooklyn, NY 11229</div>
+  </div>
+</section>
+
+</body>
+</html>
