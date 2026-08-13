@@ -22,3 +22,5 @@ Static portfolio microsite for GitHub Pages. No build step or dependencies.
 - The portfolio intentionally excludes the three unnumbered `template-1/2/3.html` working files from the source archive.
 - Existing email images are referenced from their current remote URLs, so those assets must remain available for the original emails to render fully.
 - No performance or revenue metrics are claimed because they were not part of the supplied project materials.
+
+Portfolio deployed with GitHub Pages.
